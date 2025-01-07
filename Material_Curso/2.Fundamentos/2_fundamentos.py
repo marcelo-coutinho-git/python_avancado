@@ -473,12 +473,12 @@ print("%s dividido por %s é %.2f" % (num1, num2, divisao) )
 # minuto e segundos inseridos pelo usuário. Formate o valor.
 
 dia = input("Insira o dia: ")
- mes = input("Insira o mês: ")
- ano = input("Insira o ano: ")
- hora = input("Insira a hora: ")
- minuto = input("Insira o minuto: ")
- segundo = input("Insira o segundo: ")
- print("%s/%s/%s %s:%s:%s" % (dia, mes, ano, hora, minuto, segundo))
+mes = input("Insira o mês: ")
+ano = input("Insira o ano: ")
+hora = input("Insira a hora: ")
+minuto = input("Insira o minuto: ")
+segundo = input("Insira o segundo: ")
+print("%s/%s/%s %s:%s:%s" % (dia, mes, ano, hora, minuto, segundo))
 
 """# Operadores de Atribuição e Combinação de Operadores Lógicos"""
 
@@ -566,7 +566,7 @@ print(texto[1])
 
 texto = "exemplo"
 print(texto[1:4])
-print(texto[3:])''
+print(texto[3:])
 print(texto[:5])
 
 texto = "carro"
